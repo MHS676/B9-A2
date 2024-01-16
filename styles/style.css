@@ -401,12 +401,13 @@ nav {
   text-align: center;
 
   border-bottom: 2px solid rgba(19, 19, 24, 0.1);
-
+  gap: 20px;
   border-image-slice: 1;
   margin: 0 284px 70px 284px;
 }
 .looping-logo img {
-  /* padding: 0px 0 50px 0; */
+  width: 174.322px;
+  height: 24px;
 }
 .looping p {
   color: #131318;
@@ -590,6 +591,12 @@ nav {
     height: 300px;
     border-radius: 16px;
   }
+  .text {
+    display: none;
+  }
+  .text1 {
+    display: none;
+  }
 
   .newsletter button {
     width: 250px;
@@ -620,7 +627,7 @@ nav {
     display: flex;
     margin-bottom: 10px;
     margin-top: 10px;
-    margin-left: 145px;
+    margin-left: 105px;
     gap: 20px;
   }
   .looping-content p {
