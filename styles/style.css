@@ -107,7 +107,7 @@ nav {
 .input {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
-  margin: 30px 275px;
+  margin: 30px 180px;
 }
 .input form {
   border-radius: 8px;
@@ -433,6 +433,7 @@ nav {
   .banner {
     margin-top: 10px;
   }
+
   .banner-content {
     padding-top: 32px;
   }
@@ -446,8 +447,9 @@ nav {
   }
   .input {
     flex-direction: column;
-    margin-left: 24px;
-    margin-right: 24px;
+    padding-right: 50px;
+    margin-left: 44px;
+    margin-right: 38px;
     padding-bottom: 10px;
   }
   .input form input {
