@@ -320,8 +320,10 @@ nav {
   color: #5a5a5d;
   font-size: 16px;
   font-weight: 400;
-  padding-bottom: 24px;
-  border-bottom: 1px rgba(19, 19, 24, 0.1);
+  padding-bottom: 44px;
+  border-bottom: 2px solid rgba(19, 19, 24, 0.1);
+
+  border-image-slice: 1;
 }
 
 .newsletter input {
@@ -330,8 +332,8 @@ nav {
   width: 393px;
   height: 52px;
   border: none;
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 0px;
+  margin-top: 20px;
 }
 .newsletter input::placeholder {
   color: rgba(19, 19, 24, 0.3);
@@ -351,21 +353,27 @@ nav {
 }
 
 .newsletter-img {
-  position: relative;
-  text-align: center;
-  color: white;
+  background-image: url(../Images/Rectangle81.png);
+  width: 672px;
+  height: 422px;
+  margin-left: 10px;
 }
 .text {
-  position: absolute;
-  bottom: 80px;
-  right: 16px;
-  border: 1px solid red;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  transform: rotate(-19.628deg);
+  margin-top: 300px;
+  margin-left: 350px;
 }
 .text1 {
-  position: absolute;
-  bottom: 80px;
-  right: 16px;
-  border: 1px solid red;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  transform: rotate(-19.628deg);
+  margin-left: 400px;
 }
 
 /* footer section */
@@ -577,9 +585,10 @@ nav {
   .newsletter {
     width: 250px;
   }
-  .newsletter-img img {
+  .newsletter-img {
     width: 335px;
-    height: 200px;
+    height: 300px;
+    border-radius: 16px;
   }
 
   .newsletter button {
@@ -593,5 +602,39 @@ nav {
   }
   .newsletter p {
     text-align: center;
+  }
+  /* footer section */
+  .looping-l {
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  .looping-l img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  .looping-l h1 {
+    margin-top: 0;
+  }
+  .looping-logo {
+    padding: 0;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 145px;
+    gap: 20px;
+  }
+  .looping-content p {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    margin-top: 0;
+  }
+  .looping {
+    margin: 0;
+    padding: 0;
+  }
+  .looping-content {
+    margin: 0;
   }
 }
