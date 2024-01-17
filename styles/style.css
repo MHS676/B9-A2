@@ -444,13 +444,13 @@ nav {
   header {
     width: 95%;
   }
-  nav {
+  /* nav {
     justify-content: left;
     background-image: url(../Images/Frame.svg);
 
     background-repeat: no-repeat;
     padding-left: 10px;
-  }
+  } */
   .nav-title {
     font-size: 1.3464rem;
   }
