@@ -107,7 +107,8 @@ nav {
 .input {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.3);
-  margin: 30px 180px;
+  margin: 30px 190px;
+  display: flex;
 }
 .input form {
   border-radius: 8px;
@@ -118,6 +119,18 @@ nav {
   border-radius: 8px;
   padding: 16px;
   margin: 14px;
+}
+
+.input-btn button {
+  display: inline-flex;
+  border: none;
+  padding: 12px 45px;
+  border-radius: 8px;
+  background-color: #ff5400;
+  color: white;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10px;
 }
 
 .input form select {
@@ -431,10 +444,10 @@ nav {
     width: 95%;
   }
   nav {
-    justify-content: left;
+    /* justify-content: left;
     background-image: url(../Images/Frame.svg);
     background-repeat: no-repeat;
-    background-position: 320px;
+    right: 100px; */
   }
   .nav-title {
     font-size: 1.3464rem;
@@ -477,6 +490,16 @@ nav {
   .input form select {
     padding: 16px 175px 16px 16px;
     margin-bottom: 0;
+  }
+  .input-btn {
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .input-btn button {
+    width: 285px;
+    height: 52px;
+    padding: 0 90px;
   }
 
   /* popular section */
