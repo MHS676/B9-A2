@@ -298,7 +298,7 @@ nav {
 }
 /* newsletter section */
 #newsletter-container {
-  gap: 45px;
+  gap: 100px;
   margin-top: 100px;
   display: flex;
 }
@@ -353,27 +353,35 @@ nav {
 }
 
 .newsletter-img {
-  background-image: url(../Images/Rectangle81.png);
-  width: 672px;
-  height: 422px;
-  margin-left: 10px;
+  position: relative;
+}
+
+.newsletter-text p {
+  position: absolute;
+  transform: rotate(-19.628deg);
+  background: #ff5400;
+  border-radius: 16px;
+  padding: 25px;
+  width: 10%;
+  width: 300px;
+  text-align: center;
+  margin-left: 310px;
+  margin-bottom: 500px;
+  margin-top: -190px;
 }
 .text {
-  color: #fff;
+  width: 10%;
+  width: 10px;
+  color: white;
   text-align: center;
   font-size: 24px;
   font-weight: 400;
-  transform: rotate(-19.628deg);
-  margin-top: 300px;
-  margin-left: 350px;
 }
 .text1 {
-  color: #fff;
+  color: white;
   font-size: 32px;
   font-weight: 800;
   text-align: center;
-  transform: rotate(-19.628deg);
-  margin-left: 400px;
 }
 
 /* footer section */
@@ -457,8 +465,8 @@ nav {
   .input {
     flex-direction: column;
     padding-right: 50px;
-    margin-left: 44px;
-    margin-right: 38px;
+    margin-left: 24px;
+    margin-right: 20px;
     padding-bottom: 10px;
   }
   .input form input {
@@ -541,19 +549,23 @@ nav {
   }
   /* card section */
   .card-row {
+    gap: 0;
     margin: 0;
     flex-direction: column;
   }
   .first-card {
     width: 100%;
-    width: 250px;
-    margin: 0;
+    width: 220px;
+    margin-top: 10px;
+    margin-left: 0px;
+    gap: 0;
+    margin-bottom: 0px;
   }
   .f-c-f {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .f-c-ff {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   /* simple section */
   .simple {
@@ -566,13 +578,13 @@ nav {
     width: 248px;
   }
   .simple-container p {
-    width: 335px;
+    width: 310px;
   }
   .simple-container ul > li {
-    width: 335px;
+    width: 300px;
   }
   .simple-container-img img {
-    width: 335px;
+    width: 320px;
     height: 200px;
   }
   /* newsletter-container */
@@ -580,26 +592,32 @@ nav {
     flex-direction: column;
   }
   .newsletter input {
-    width: 250px;
+    width: 230px;
     height: 52px;
   }
   .newsletter {
-    width: 250px;
+    width: 230px;
   }
-  .newsletter-img {
-    width: 335px;
-    height: 300px;
-    border-radius: 16px;
+
+  .newsletter-text p {
+    margin-top: -100px;
+    margin-left: 100px;
+    padding: 5px;
+    width: 200px;
+  }
+  .newsletter-img img {
+    width: 320px;
+    height: 252px;
   }
   .text {
-    display: none;
+    font-size: 15.854px;
   }
   .text1 {
-    display: none;
+    font-size: 21.138px;
   }
 
   .newsletter button {
-    width: 250px;
+    width: 230px;
     height: 52px;
   }
 
