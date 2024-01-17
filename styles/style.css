@@ -510,13 +510,15 @@ nav {
     margin-right: 24px;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 0px;
+    padding: 0;
   }
   .popular {
     margin: 0;
   }
   .popular-img img {
-    width: 335px;
-    height: 342px;
+    width: 280px;
+    height: 280px;
   }
   .popular h1 {
     font-size: 1.25rem;
@@ -529,38 +531,46 @@ nav {
   }
 
   .img1 img {
-    width: 335px;
+    width: 280px;
     height: 176px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     padding: 0;
   }
   .img2 img {
     width: 100%;
-    width: 335px;
+    width: 280px;
     height: 176px;
     margin: 0;
     padding: 0;
   }
   .img3 img {
-    width: 335px;
+    width: 280px;
     height: 176px;
     margin: 0;
     padding: 0;
   }
 
   .img1 {
-    margin-left: 24px;
+    padding: 0;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    margin-left: 10px;
     margin-right: 24px;
     flex-direction: column;
   }
   .img2 {
-    margin-left: 24px;
+    padding: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
     margin-right: 24px;
     flex-direction: column;
   }
 
   .img3 {
-    margin-left: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 10px;
     margin-right: 24px;
     flex-direction: column;
   }
