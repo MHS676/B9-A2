@@ -422,18 +422,16 @@ nav {
 
 .looping-logo {
   text-align: center;
-
   border-bottom: 2px solid rgba(19, 19, 24, 0.1);
-  /* gap: 20px; */
   border-image-slice: 1;
-  margin: 0px 284px 70px 284px;
+  margin: 0px 284px 50px 284px;
 }
 
 .looping-logo img {
-  margin: 0px 0 100px 0;
+  margin: 33px 0 50px 0;
 }
 
-.looping p {
+.copy-rights {
   color: #131318;
   font-size: 16px;
   font-weight: 300;
@@ -447,10 +445,11 @@ nav {
     width: 95%;
   }
   nav {
-    /* justify-content: left;
+    justify-content: left;
     background-image: url(../Images/Frame.svg);
+
     background-repeat: no-repeat;
-    right: 100px; */
+    padding-left: 10px;
   }
   .nav-title {
     font-size: 1.3464rem;
@@ -661,8 +660,11 @@ nav {
     text-align: center;
     padding-left: 24px;
   }
-  .newsletter p {
+  .copy-rights {
+    margin-bottom: 0px;
     text-align: center;
+    margin-top: 0px;
+    padding: 0px 0px 30px 0px;
   }
   /* footer section */
   .looping-l {
@@ -679,10 +681,10 @@ nav {
   .looping-logo {
     padding: 0;
     display: flex;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-left: 105px;
-    gap: 20px;
+    /* gap: 20px; */
   }
   .looping-content p {
     margin-right: 20px;
