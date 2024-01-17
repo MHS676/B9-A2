@@ -416,20 +416,23 @@ nav {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+  padding-left: 500px;
+  padding-right: 500px;
 }
 
 .looping-logo {
   text-align: center;
 
   border-bottom: 2px solid rgba(19, 19, 24, 0.1);
-  gap: 20px;
+  /* gap: 20px; */
   border-image-slice: 1;
-  margin: 0 284px 70px 284px;
+  margin: 0px 284px 70px 284px;
 }
+
 .looping-logo img {
-  width: 174.322px;
-  height: 24px;
+  margin: 0px 0 100px 0;
 }
+
 .looping p {
   color: #131318;
   font-size: 16px;
